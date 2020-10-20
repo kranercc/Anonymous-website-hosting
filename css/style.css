@@ -1,0 +1,84 @@
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  background-image: radial-gradient(#ebebeb, #a6a6a6);
+}
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+  height: 2.8rem;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+/*============= MAIN VIEW =============*/
+.main-view {
+  max-width: fit-content;
+  margin: auto;
+  border: 0.1rem solid black;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.main-view-p {
+  max-width: 60rem;
+}
+
+.main-view-btn-load {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.main-view-btn-upload {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/*============= LABEL =============*/
+label {
+  margin-bottom: 0 !important;
+}
+/*============= PARAGRAPHS =============*/
+p.lead {
+  font-size: 1.4rem;
+}
+
+p.lead2 {
+  margin-right: 4rem;
+  display: flex;
+  position: relative;
+  align-self: center;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.main-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: [footer-height];
+  margin-top: 5.8rem;
+  background-color: #424242;
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none;
+}
+
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
